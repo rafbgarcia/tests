@@ -1,0 +1,14 @@
+{
+  "name": "ninja-tests",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Power Home",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^5.1.0"
+  }
+}
