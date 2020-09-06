@@ -4,7 +4,6 @@
   "description": "Ninja tests",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
   },
   "author": "Power Home",
   "license": "MIT",
