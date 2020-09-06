@@ -1,10 +1,10 @@
 {
   "name": "ninja-tests",
   "version": "0.0.1",
-  "description": "",
+  "description": "Ninja tests",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "cypress open"
   },
   "author": "Power Home",
   "license": "MIT",
