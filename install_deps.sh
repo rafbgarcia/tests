@@ -116,3 +116,5 @@ if which node > /dev/null
     ensure_asdf_plugins
     install_tools
   fi
+
+npm install
