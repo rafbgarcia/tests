@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Ninja tests",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "cy:open": "cypress open"
+  },
   "author": "Power Home",
   "license": "MIT",
   "dependencies": {
