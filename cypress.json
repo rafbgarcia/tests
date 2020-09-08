@@ -1,6 +1,6 @@
 {
   "baseUrl": "https://nitroqa.mydatainmotion.com/",
-  "experimentalFetchPolyfill": true,
+  "experimentalNetworkStubbing": true,
   "requestTimeout": 10000,
   "integrationFolder": "cypress/integration",
   "screenshotsFolder": "cypress/screenshots",
