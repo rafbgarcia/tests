@@ -21,9 +21,11 @@ describe("Connect Smoke Test", () => {
 
   before(() => {
     cy.route2("**/state.json*").as("state")
-    if (!cy.isLoggedIn()) {
-      cy.loginAs("rafael.garcia")
-    }
+    cy.isLoggedIn().then(isLoggedIn => {
+      if (!isLoggedIn) {
+        cy.loginAs("rafael.garcia")
+      }
+    })
     cy.visit("/connect")
     cy.wait("@state")
   })
