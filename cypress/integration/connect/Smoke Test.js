@@ -22,7 +22,7 @@ describe("Connect Smoke Test", () => {
     const groupConvoName = "Carlos, Gabriel, & Rafael"
 
     // Make sure the bookmark we're creating is not present
-    cy.get(bookmarksSection).scrollTo("bottom")
+    cy.get(peopleBookmarksSection).scrollIntoView()
     cy.get(peopleBookmarksSection).then($bookmarks => {
       if ($bookmarks.text().includes(groupConvoName)) {
         cy.contains(peopleBookmarkItem, groupConvoName).find(closeBookmarkBtn).click({ force: true })
