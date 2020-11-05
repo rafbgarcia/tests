@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://nitroqa.mydatainmotion.com/",
+  "baseUrl": "https://nitroqa.powerhrg.com/",
   "experimentalNetworkStubbing": true,
   "requestTimeout": 10000,
   "integrationFolder": "cypress/integration",
